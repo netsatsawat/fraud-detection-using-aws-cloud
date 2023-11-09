@@ -2,8 +2,8 @@
 This repository outlines various solutions using AWS Cloud's AIML services to detect fraud faster.
 
 ### Table of contents
-- [Introduction](https://github.com/netsatsawat/fraud-detection-using-aws-cloud#Introduction)
-- [Solutions using AWS services](https://github.com/netsatsawat/fraud-detection-using-aws-cloud#Solutions-using-AWS-services)
+- [Introduction](#Introduction)
+- [Solutions using AWS services](#Solutions-using-AWS-services)
   
 <img src="https://github.com/netsatsawat/fraud-detection-using-aws-cloud/blob/90ef058e3c3c8b37bc9b5777e9e2476998c4ee8d/img/fraud-detector-AI.jpg" width=400>
 
