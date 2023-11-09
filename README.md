@@ -7,9 +7,13 @@ This repository outlines various solutions using AWS Cloud's AIML services to de
   
 <img src="https://github.com/netsatsawat/fraud-detection-using-aws-cloud/blob/90ef058e3c3c8b37bc9b5777e9e2476998c4ee8d/img/fraud-detector-AI.jpg" width=400>
 
+
+
 ## Introduction
 
 **Fraud detection** is the process of identifying fraudulent activities, such as identity theft, financial fraud, and claim fraud. This can be applied in broad range of industries, as such it is crucial for organizations to have effective fraud detection systems in place. Fraud detection is a critical process for organizations across sectors to limit financial losses, comply with industry regulations, maintain their reputations, and deter fraudsters. Investing in fraud detection capabilities delivers major benefits and protects companies from potentially significant risks and damages.
+
+[🔼 Back to top](#Fraud-Detection-using-AWS-Cloud)
 
 ## Solutions using AWS services
 In AWS Cloud, there are many solution for data scientists and data analysts to build, train, and deploy the fraud detection model. Also this repository contains the Python code as notebook to run on Amazon SageMaker to replicate the solutions.
@@ -32,6 +36,7 @@ Amazon SageMaker Studio is an integrated development environment (IDE) that prov
 
 <img src="https://d1.awsstatic.com/sagemaker/Amazon-SageMaker-Studio%402x.aa0572ebf4ea9237571644c7f853c914c1d0c985.png" width=1000>
 
+[🔼 Back to top](#Fraud-Detection-using-AWS-Cloud)
 
 ## Things not include in this tutorial
 - How to set up AWS account, please refer to this [documentation](https://docs.aws.amazon.com/accounts/latest/reference/welcome-first-time-user.html).
@@ -39,3 +44,5 @@ Amazon SageMaker Studio is an integrated development environment (IDE) that prov
 
 ## Remark
 Everything I wrote here is my opinion and not involve with my employers.
+
+[🔼 Back to top](#Fraud-Detection-using-AWS-Cloud)
