@@ -4,10 +4,14 @@ This repository outlines various solutions using AWS Cloud's AIML services to de
 ### Table of contents
 - [Introduction](#Introduction)
 - [Solutions using AWS services](#Solutions-using-AWS-services)
-  
+- [Things not include in this tutorial](#Things-not-include-in-this-tutorial)
+
+### Link to Solution notebooks
+- [Build model directly in SageMaker Notebook](/notebook/01-traditional-ways-of-building-model-on-notebook)
+
+
+
 <img src="https://github.com/netsatsawat/fraud-detection-using-aws-cloud/blob/90ef058e3c3c8b37bc9b5777e9e2476998c4ee8d/img/fraud-detector-AI.jpg" width=400>
-
-
 
 ## Introduction
 
