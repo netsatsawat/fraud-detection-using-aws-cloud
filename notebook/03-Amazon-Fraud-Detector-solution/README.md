@@ -10,11 +10,25 @@ Amazon Fraud Detector is a **fully managed service** enabling customers to ident
 ## Demonstration
 In this demonstration, I use `boto3` SDK to build Fraud detector utilizing Amazon Fraud Detector service. You can opt to build either on console or code.
 
-Key terms 1
+When using Amazon Fraud Detector, there will be few terms and terminologies you need to understand. Let's imagine the transaction or claim scenario:
+1. The **entities** (i.e., can be person, hospital, merchant) make an activities, or **events** (this can be transaction, claim, account registration).
+2. This event will consists of data points, or **variable**, which represents the transaction type, amount, etc.
+3. This event will result in an **outcome**, or **labels**, which either can be fraud or legit transaction.
+
+Below image demonstrates the overall process with the terms.
 <img src="https://github.com/netsatsawat/fraud-detection-using-aws-cloud/blob/824e633d5509c7fc68ef691326536a0afd68d31e/img/afd-key-terms1.png">
 
-Key terms 2
+Now, to detect fraud, usually there are 2 options:
+- Domain users have predefine logics or **rules** to filter the events or transactions
+- Data scientists have built ML **model** to score or predict each event or transaction
+
+**Amazon Fraud Detector** has the capabilities to combine these 2 methods, known as **Detector**, to buld the ML models using AutoML and define the business **logic** and each logic produce a different **outcome**. For example:
+- model score >= 800, outcome is `fraud`
+- model score > 500 and model score < 800, outcome is `investigate`
+- model score <= 500, outcome is `legit`
+
+You can define various logics and outcomes based on your business objectives.
 <img src="https://github.com/netsatsawat/fraud-detection-using-aws-cloud/blob/b07cebdf793cffd1050fe959307233bc0c4f06b3/img/afd-key-terms2.png">
 
-Put in all together
+To conclude, **Amazon Fraud Detector** consists of processes below.
 <img src="https://github.com/netsatsawat/fraud-detection-using-aws-cloud/blob/b07cebdf793cffd1050fe959307233bc0c4f06b3/img/afd-how-it-works.png">
