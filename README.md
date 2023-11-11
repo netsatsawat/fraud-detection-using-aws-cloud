@@ -10,6 +10,7 @@ This repository outlines various solutions using AWS Cloud's AIML services to de
 - [Build model directly in SageMaker Notebook](/notebook/01-traditional-ways-of-building-model-on-notebook)
 - [Use SageMaker SDK - Built-in XGBoost algorithm and SKLearn Estimator](/notebook/02-SageMaker-built-in-algorithm)
 - [Use Amazon Fraud Detecto service - via Boto SDK](/notebook/03-Amazon-Fraud-Detector-solution)
+- [Bonus - Use Amazon SageMaker AutoPilot - AutoML to build Fraud model](/notebook/04-SageMaker-autopilot)
 
 
 <img src="https://github.com/netsatsawat/fraud-detection-using-aws-cloud/blob/90ef058e3c3c8b37bc9b5777e9e2476998c4ee8d/img/fraud-detector-AI.jpg" width=400>
